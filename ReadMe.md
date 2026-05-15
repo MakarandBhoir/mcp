@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor User
@@ -33,3 +34,4 @@ sequenceDiagram
     UI->>LLM: Send Raw Database Response for Translation
     LLM-->>UI: Return Natural Language Text
     UI->>User: "I have successfully updated Employee #104 to the Marketing department."
+```

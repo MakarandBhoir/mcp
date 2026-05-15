@@ -2,14 +2,14 @@
 sequenceDiagram
     autonumber
     actor User
-    box RGB(240, 244, 248) MCP Host Application
+    box #F0F4F8 MCP Host Application
         participant UI as User Interface (Claude/Copilot)
         participant Client as MCP Client (Protocol Engine)
     end
-    box RGB(255, 244, 229) Cloud AI
+    box #FFF4E5 Cloud AI
         participant LLM as LLM Engine (Claude 3.5 / GPT-4o)
     end
-    box RGB(230, 247, 255) Your Machine
+    box #E6F7FF Your Machine
         participant Server as MCP Server (CRUD App)
         participant DB as Employee Database
     end
